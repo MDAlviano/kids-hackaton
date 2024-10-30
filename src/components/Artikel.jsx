@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import CardPict from '../assets/bg-kidi.jpeg';
 
 const Artikel = () => {
   const sliderContainerRef = useRef(null);
@@ -39,16 +40,16 @@ const Artikel = () => {
   };
 
   return (
-    <section id="donasi" className="bg-gray-100 py-20">
+    <section id="artikel" className="bg-gray-100 py-14">
       <div className="container mx-auto text-start">
-        <h2 className="text-4xl font-bold mb-8">Mereka Butuh Bantuanmu!</h2>
+        <h2 className="text-4xl font-bold mb-8">Cek Artikel Terbaru!</h2>
         <div className="flex justify-center">
           <div ref={sliderContainerRef} className="w-full overflow-hidden">
             <ul ref={sliderRef} className="flex w-full duration-700">
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={{CardPict}} alt="" />
+                    <img className="rounded-t-lg" src={CardPict} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
@@ -67,7 +68,7 @@ const Artikel = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={{CardPict}} alt="" />
+                    <img className="rounded-t-lg" src={CardPict} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
@@ -86,7 +87,7 @@ const Artikel = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={{CardPict}} alt="" />
+                    <img className="rounded-t-lg" src={CardPict} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
@@ -105,7 +106,7 @@ const Artikel = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={{CardPict}} alt="" />
+                    <img className="rounded-t-lg" src={CardPict} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
@@ -124,7 +125,7 @@ const Artikel = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={{CardPict}} alt="" />
+                    <img className="rounded-t-lg" src={CardPict} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
@@ -143,7 +144,7 @@ const Artikel = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={{CardPict}} alt="" />
+                    <img className="rounded-t-lg" src={CardPict} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">

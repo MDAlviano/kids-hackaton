@@ -3,7 +3,7 @@ import HeroBG from '../assets/bg-kidi.jpeg'
 
 const Hero = () => {
   return (
-    <section className="bg-center bg-no-repeat bg-blend-multiply" style={{
+    <section id='beranda' className="py-5 bg-center bg-no-repeat bg-blend-multiply" style={{
         backgroundImage: `url(${HeroBG})`,
         backgroundSize: "cover"
     }}>

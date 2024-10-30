@@ -1,8 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import CardPict from '../assets/bg-kidi.jpeg';
 
-const Donasi = () => {
-  const sliderContainerRef = useRef(null);
+const Aksi = () => {
+
+    const sliderContainerRef = useRef(null);
   const sliderRef = useRef(null);
   const elementsToShow = window.innerWidth < 1000 ? 1 : 3;
   let cardWidth = 0;
@@ -40,9 +41,9 @@ const Donasi = () => {
   };
 
   return (
-    <section id="donasi" className="bg-gray-100 py-20">
+    <section id="aksi" className="bg-gray-100 py-14">
       <div className="container mx-auto text-start">
-        <h2 className="text-4xl font-bold mb-8">Donasikan Uangmu!</h2>
+        <h2 className="text-4xl font-bold mb-8">Ayo Berpartisipasi!</h2>
         <div className="flex justify-center">
           <div ref={sliderContainerRef} className="w-full overflow-hidden">
             <ul ref={sliderRef} className="flex w-full duration-700">
@@ -178,7 +179,7 @@ const Donasi = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Donasi;
+export default Aksi
