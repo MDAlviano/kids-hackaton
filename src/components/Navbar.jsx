@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200 fixed w-full shadow-lg">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
-        <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <span className="self-center text-2xl text-gray-900 font-semibold whitespace-nowrap">KitaBergerak.com</span>
+        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <span className="self-center text-2xl text-gray-900 font-semibold whitespace-nowrap">ActiVibe</span>
         </a>
         <button
           data-collapse-toggle="navbar-default"

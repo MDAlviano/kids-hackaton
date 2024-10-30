@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from "react";
-import CardPict from '../assets/bg-kidi.jpeg';
+import Pantai from "../assets/pantai-kotor.png"
+import Panti from "../assets/kunjungan-panti-jompo.jpg"
+import Bakti from "../assets/bakti.jpg"
+import Pohon from "../assets/tanam-pohon.jpeg"
 
 const Aksi = () => {
-
-    const sliderContainerRef = useRef(null);
+  const sliderContainerRef = useRef(null);
   const sliderRef = useRef(null);
   const elementsToShow = window.innerWidth < 1000 ? 1 : 3;
   let cardWidth = 0;
@@ -41,7 +43,7 @@ const Aksi = () => {
   };
 
   return (
-    <section id="aksi" className="bg-gray-100 py-14">
+    <section id="aksi" className="bg-white py-14">
       <div className="container mx-auto text-start">
         <h2 className="text-4xl font-bold mb-8">Ayo Berpartisipasi!</h2>
         <div className="flex justify-center">
@@ -50,18 +52,21 @@ const Aksi = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
+                    <img className="rounded-t-lg" src={Pantai} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Aksi Pembersihan Pantai Indah</h5>
                     </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
-                      <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                      </svg>
+                    <p className="font-normal text-gray-700">Aksi membersihkan pantai indah bersama, karena pantai ini sudah dinilai terlalu kotor.</p>
+                    <p className="text-gray-700">
+                      Waktu: 08.00-Selesai
+                    </p>
+                    <p className="mb-3 text-gray-700">
+                      Lokasi: Pantai Indah
+                    </p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-secondary">
+                      Daftar disini
                     </a>
                   </div>
                 </div>
@@ -69,18 +74,21 @@ const Aksi = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
+                    <img className="rounded-t-lg" src={Panti} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Kunjungan ke Panti Jompo Harapan Asri</h5>
                     </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
-                      <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                      </svg>
+                    <p className="font-normal text-gray-700">Berkunjung ke Panti Harapan Asri untuk berbincang-bincang ke para lansia dan memberikan sedikit bantuan.</p>
+                    <p className="text-gray-700">
+                      Waktu: 10.00-12.00
+                    </p>
+                    <p className="mb-3 text-gray-700">
+                      Lokasi: Panti Jompo Harapan Asri
+                    </p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-secondary">
+                      Daftar disini
                     </a>
                   </div>
                 </div>
@@ -88,18 +96,21 @@ const Aksi = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
+                    <img className="rounded-t-lg" src={Bakti} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Bakti Sosial untuk Masyarakat Kurang Mampu</h5>
                     </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
-                      <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                      </svg>
+                    <p className="font-normal text-gray-700">Memberikan sedikit bantuan kepada masyarakat yang kurang mampu di kelurahan Pandean Lamper.</p>
+                    <p className="text-gray-700">
+                      Waktu: 15.30-16.30
+                    </p>
+                    <p className="mb-3 text-gray-700">
+                      Lokasi: Kantor Kelurahan Pandean Lamper
+                    </p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-secondary">
+                      Daftar disini
                     </a>
                   </div>
                 </div>
@@ -107,56 +118,21 @@ const Aksi = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
+                    <img className="rounded-t-lg" src={Pohon} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Aksi Menanam Pohon Bersama</h5>
                     </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
-                      <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li className="p-5">
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-                  <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
-                  </a>
-                  <div className="p-5">
-                    <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
-                      <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li className="p-5">
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-                  <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
-                  </a>
-                  <div className="p-5">
-                    <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
-                      <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                      </svg>
+                    <p className="font-normal text-gray-700">Program ini bertujuan untuk meningkatkan kesadaran tentang pentingnya lingkungan dan konservasi alam.</p>
+                    <p className="text-gray-700">
+                      Waktu: 09.00-Selesai
+                    </p>
+                    <p className="mb-3 text-gray-700">
+                      Lokasi: Hutan Lindung Kumbolo
+                    </p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-secondary">
+                      Daftar disini
                     </a>
                   </div>
                 </div>
@@ -179,7 +155,7 @@ const Aksi = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Aksi
+export default Aksi;

@@ -1,5 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import CardPict from '../assets/bg-kidi.jpeg';
+import Windah from "../assets/windah.jpg"
+import Sukarelawan from "../assets/sukarelawan.jpeg"
+import Dampak from "../assets/dampak.jpg"
+import Komunitas from "../assets/Komunitas.jpeg"
 
 const Artikel = () => {
   const sliderContainerRef = useRef(null);
@@ -42,22 +45,22 @@ const Artikel = () => {
   return (
     <section id="artikel" className="bg-gray-100 py-14">
       <div className="container mx-auto text-start">
-        <h2 className="text-4xl font-bold mb-8">Cek Artikel Terbaru!</h2>
+        <h2 className="text-4xl font-bold mb-8">Kotak Inspiratif</h2>
         <div className="flex justify-center">
           <div ref={sliderContainerRef} className="w-full overflow-hidden">
             <ul ref={sliderRef} className="flex w-full duration-700">
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
+                    <img className="rounded-t-lg" src={Sukarelawan} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Tips Menjadi Relawan</h5>
                     </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
+                    <p className="mb-3 font-normal text-gray-700">Informasi praktis tentang bagaimana memulai sebagai relawan, termasuk persiapan, etika, dan pengalaman yang mungkin ditemui.</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-secondary">
+                      Selengkapnya
                       <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                       </svg>
@@ -68,15 +71,15 @@ const Artikel = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
+                    <img className="rounded-t-lg" src={Dampak} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Dampak Sosial dan Lingkungan dari Aksi Kecil</h5>
                     </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
+                    <p className="mb-3 font-normal text-gray-700">Bagaimana sebuah tindakan kecil, seperti mengurangi sampah plastik, dapat berdampak besar untuk kedepannya.</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-secondary">
+                      Selengkapnya
                       <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                       </svg>
@@ -87,15 +90,15 @@ const Artikel = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
+                    <img className="rounded-t-lg" src={Komunitas} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Pentingnya Komunitas di Kehidupan Sosial</h5>
                     </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
+                    <p className="mb-3 font-normal text-gray-700">Peran komunitas dalam menciptakan kesejahteraan sosial dan saling mendukung di kehidupan sehari-hari.</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-secondary">
+                      Selengkapnya
                       <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                       </svg>
@@ -106,53 +109,15 @@ const Artikel = () => {
               <li className="p-5">
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                   <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
+                    <img className="rounded-t-lg bg-cover" src={Windah} alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Windah Basudara Bangun Sekolah Impian Anak Papua</h5>
                     </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
-                      <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li className="p-5">
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-                  <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
-                  </a>
-                  <div className="p-5">
-                    <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
-                      <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li className="p-5">
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-                  <a href="#">
-                    <img className="rounded-t-lg" src={CardPict} alt="" />
-                  </a>
-                  <div className="p-5">
-                    <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                      Read more
+                    <p className="mb-3 font-normal text-gray-700">Youtuber dengan jutaan subscriber, membangun sekolah untuk anak-anak di Papua.</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-secondary">
+                      Selengkapnya
                       <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                       </svg>

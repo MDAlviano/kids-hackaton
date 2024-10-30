@@ -1,19 +1,15 @@
 import React from "react";
-import ContactBg from "../assets/bg-kidi.jpeg";
+import Icon from "../assets/contact.jpg"
 
 const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-14 bg-center bg-no-repeat bg-blend-multiply"
-      style={{
-        backgroundImage: `url(${ContactBg})`,
-        backgroundSize: "cover",
-      }}
+      className="py-14 bg-white"
     >
       <div className="container mx-auto text-start">
         <h2 className="text-4xl font-bold mb-8">Hubungi Kami</h2>
-        <div className="flex justify-start">
+        <div className="flex justify-between items-center">
           <div className="w-1/2">
             <div className="w-full px-4 mb-8">
               <label for="email" className="text-base font-bold">
@@ -30,6 +26,9 @@ const Contact = () => {
             <div class="w-full px-4">
               <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
             </div>
+          </div>
+          <div className="w-2/5">
+            <img src={Icon} alt="contact" />
           </div>
         </div>
       </div>

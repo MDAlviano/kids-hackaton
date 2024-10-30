@@ -7,7 +7,7 @@ const Footer = () => {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse lg:ml-10 md:ml-10 sm:ml-3">
-              <h1 class="text-4xl font-bold text-white">KitaBergerak.com</h1>
+              <h1 class="text-5xl font-bold text-white">ActiVibe</h1>
             </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -63,7 +63,7 @@ const Footer = () => {
           <span class="text-sm text-gray-300 sm:text-center dark:text-gray-400">
             © 2024{" "}
             <a href="index.html" class="hover:underline">
-              KitaBergerak.com
+              ActiVibe
             </a>
             . All Rights Reserved.{" "}
           </span>
